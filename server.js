@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 const mongoose = require('mongoose');
 const path = require('path');
-
+const logger = require('morgan')
 
 /* Middleware */
 app.use(express.json());
