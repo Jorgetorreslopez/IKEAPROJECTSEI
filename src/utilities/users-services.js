@@ -3,6 +3,8 @@ import * as usersAPI from './users-api'
 export async function signUp(userData) {
     const token = await usersAPI.signUp(userData)
     localStorage.setItem('token', token)
+    // req.user.isGuest = false
+    //req.user.save()
     return getUser()
 }
 
@@ -11,6 +13,10 @@ export async function login(credentials) {
     localStorage.setItem('token', token)
     return getUser()
 }
+
+// Check is guest function?
+// if (req.user.isGuest)
+// use guest routes
 
 export function getToken() {
     const token = localStorage.getItem('token')
