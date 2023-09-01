@@ -14,6 +14,9 @@ app.use((req, res, next) => {
 })
 
 app.use(require('./config/checkToken'))
+app.use('/api/users', require('./routes/api/users'))
+app.use('/api/items', require('./routes/api/items'))
+app.use('/api/orders', require('./routes/api/orders'))
 
 
 app.get('*', (req, res) => {

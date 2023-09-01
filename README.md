@@ -37,3 +37,9 @@ npm start
 ```bash
 yarn start
 ```
+
+I've updated the DEV branch in my Github with MONGODB Connection functionality. Once you pull the updated changes you should be able to Connect to your DB after doing the following:
+Run NPM I
+Run NPM I morgan
+Update Your .ENV file with your own connection string (Remember to change the name of your collection in the Connection String)
+run NPM RUN START

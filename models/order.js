@@ -57,15 +57,15 @@ orderSchema.methods.addItemToCart = async function(itemId) {
 };
 
 
-orderSchema.methods.setItemQuantity = function(itemId, newQuantity) {
+orderSchema.methods.setItemQty = function(itemId, newQty) {
     const cart = this;
 
     const lineItem = cart.lineItems.find(lineItem => lineItem.item._id.equals(itemId));
-    if (lineItem && newQuantity <= 0) {
+    if (lineItem && newQty <= 0) {
 
         lineItem.deleteOne();
     } else if (lineItem) {
-        lineItem.quantity = newQuantity;
+        lineItem.quantity = newQty;
     }
     return cart.save();
 };

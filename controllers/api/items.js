@@ -1,10 +1,11 @@
-const Item = require('../../models/item').Item;
+const Item = require('../../models/item')
 
 module.exports = {
 	index,
 	show,
 	update,
-	destroy
+	destroy,
+    create,
 };
 
 function jsonItem(_, res) {

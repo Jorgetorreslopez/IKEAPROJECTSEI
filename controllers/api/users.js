@@ -89,6 +89,7 @@ const dataController = {
     try {
         const user = await User.findByIdAndUpdate(req.params.id, req.body, {new: true})
 		res.locals.data.user = user
+		res.status(200).json({user})
 		next()
     } catch (error) {
         res.status(400).json({ message: error.message  })  
@@ -99,8 +100,7 @@ const dataController = {
     try {
         const user = await User.findByIdAndDelete(req.params.id)
         res.locals.data.user = user
-        res.status(204)
-        res.send('Thanos Snap!')
+        res.status(204).json({ message: 'Thanos Snap!'})
     } catch (error) {
         res.status(400).json({ message: error.message  })
     }
