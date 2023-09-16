@@ -3,7 +3,7 @@ import styles from './PexelsContent.module.scss';
 
 function PexelsContent({ pexelsData, setPexelsData }) {
 	useEffect(() => {
-		fetch('http://localhost:8011/pexels')
+		fetch('http://localhost:3000/pexels')
 			.then((response) => {
 				if (!response.ok) {
 					throw new Error(`HTTP error! Status: ${response.status}`);
