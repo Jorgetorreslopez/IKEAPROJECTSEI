@@ -1,0 +1,61 @@
+.LineItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.LineItem img {
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.LineItem > div {
+  flex: 1;
+}
+
+.LineItem span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.qty {
+  display: flex;
+  align-items: center;
+}
+
+.quantityLabel {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 5px;
+  color: #333;
+}
+
+.quantity {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btnXS {
+  background-color: #0051ba;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 10px;
+  margin: 2%;
+
+  &:hover {
+    background-color: #003f9f;
+  }
+}
+
+.extPrice {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

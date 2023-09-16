@@ -1,0 +1,18 @@
+.pic {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: auto;
+    padding: 200px 200px 200px 20px;
+    background-image: url(https://i.imgur.com/SD6vAEQ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .job1 {
+        display: grid;
+        justify-content: center;
+        color: #FFDA1A;
+        padding: 20px 20px 20px 20px;
+        font-size: 25px;
+        background-color: #007bff;
+    }
+}

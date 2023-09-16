@@ -1,0 +1,48 @@
+.PortalContainer {
+   position: fixed;
+   top: 0;
+   right: 0;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   z-index: 1000;
+
+   .LSBtn {
+      margin-right: 10px;
+      color: black;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:hover {
+         text-decoration: underline;
+      }
+   }
+
+   .CBtn {
+      margin-right: 10px;
+      color: black;
+      text-decoration: none;
+
+      &:hover {
+         text-decoration: underline;
+      }
+   }
+
+   .LOBtn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0051ba;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+         background-color: #003a8e;
+      }
+   }
+}

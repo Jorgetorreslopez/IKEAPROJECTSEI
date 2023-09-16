@@ -1,0 +1,33 @@
+.AuthPage {
+    display: inline-block;
+    margin: 30px 10px 30px 1000px;
+
+    .GuestUser {
+        color: blue;
+        font-family: 'Noto IKEA', 'Noto Sans', 'Roboto', 'Open Sans', system-ui, sans-serif;
+        font-size: 20px;
+        margin: 13px 513px 25px -440px;
+    }
+
+    .SLBtn {
+        border: 2px solid blue;
+        border-radius: 10%;
+        display: inline-block;
+        background-color: white; 
+        margin: -12px 10px 30px 0px;
+        padding: 5px;
+        cursor: pointer;
+
+    }
+
+    .SLBtn:hover {
+        border: 2px solid black;
+        border-radius: 10%;
+        background-color: blue;
+        color: white;
+    }
+
+    .OrangePhoto {
+        margin: 10px 10px 10px -803px;
+    }
+}

@@ -1,0 +1,8 @@
+.MenuList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin: 10px 10px 139px 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(180deg, lavender, white);
+}

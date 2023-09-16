@@ -1,0 +1,39 @@
+.SignUpForm {
+    display: block;
+
+    .SForm {
+        display: grid;
+        gap: 6px;
+    }
+
+    .Placeholder {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .SignUpBtn {
+        color: rgb(162, 14, 14);
+        background-color: white;
+        font-size: 20px;
+        border-color: rgb(162, 14, 14);
+        display: block;
+        border-radius: 10%;
+        margin: 45px 387px 30px 0px;
+        padding: 5px;
+
+        &:hover {
+            color: white;
+            background-color: rgb(162, 14, 14);
+            border-color: black;
+        }
+    }
+
+    .SignUpBtn:disabled {
+        cursor: not-allowed;
+        background-color: var(--tan-4);
+    }
+
+    .errorMessage {
+        color: red;
+    }
+}

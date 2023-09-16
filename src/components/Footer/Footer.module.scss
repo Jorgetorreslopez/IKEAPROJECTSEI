@@ -1,0 +1,36 @@
+.fsLinks {
+    display: grid;
+    grid-template-columns: 175px 250px 175px 250px;
+    gap: 70px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 360px;
+    font-size: small;
+}
+
+.payLinks {
+    display: flex;
+    gap: 10px;
+    padding-left: 75px;
+    padding-top: 25px;
+
+    .hnf-payment-logo__img {
+        width: 60px;
+        height: auto; 
+    }
+}
+
+.photo {
+    align-items: center;
+    padding: 5px 25px 5px 25px;
+}
+
+.socials {
+    content: '';
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px 50px 250px;
+    font-size: 50px;
+   
+}

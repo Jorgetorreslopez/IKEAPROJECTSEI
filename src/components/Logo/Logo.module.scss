@@ -1,0 +1,20 @@
+.Logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 10vmin;
+    width: 20vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(250, 226, 4);
+    color: blue;
+    font-size: 7vmin;
+    font-weight: 900 !important;
+    border: .6vmin solid blue;
+    position: right !important;
+
+    .logoText {
+        color: blue;
+    }
+}

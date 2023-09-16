@@ -1,0 +1,40 @@
+.FormContainer {
+    display: block;
+
+    .Form {
+        display: grid;
+        gap: 2px;
+    }
+
+    .Placeholder {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .PeekABoo {
+        margin-left: 10px;
+        background-color: white;
+        size-adjust: 5px;
+    }
+
+    .LogInBtn {
+        color: rgb(162, 14, 14);
+        background-color: white;
+        font-size: 20px;
+        border-color: rgb(162, 14, 14);
+        display: block;
+        border-radius: 10%;
+        margin: 45px 526px 15px 0px;
+        padding: 5px;
+    }
+
+    .LogInBtn:hover {
+        color: white;
+        background-color: rgb(162, 14, 14);
+        border-color: black;
+    }
+
+    .errorMessage {
+        color: red;
+    }
+}
