@@ -108,6 +108,16 @@ To start using the IKEA SEI Project, follow these steps:
 
 3. **Explore the project** by browsing through the catalog, viewing product details, and experimenting with the features of the application.
 
+
+3. **Explore the project** by browsing through the catalog, viewing product details, and experimenting with the features of the application.
+
+ ![HomePage](https://media.discordapp.net/attachments/973091238175711262/1152400665310670940/IKEAXDONNA_and_17_more_pages_-_Personal_-_Microsoft_Edge_9_15_2023_5_26_27_PM.png?width=930&height=905)
+
+ ![Shopping Page](https://media.discordapp.net/attachments/973091238175711262/1152401153905143828/IKEAXDONNA_and_17_more_pages_-_Personal_-_Microsoft_Edge_9_15_2023_5_29_12_PM.png?width=1070&height=904)
+
+![Loggin Page](https://media.discordapp.net/attachments/973091238175711262/1152401492502921236/IKEAXDONNA_and_17_more_pages_-_Personal_-_Microsoft_Edge_9_15_2023_5_31_07_PM.png?width=796&height=905)
+
+
 ### Technologies
 
 This project makes use of the following technologies:
@@ -116,6 +126,14 @@ This project makes use of the following technologies:
 - [Bootstrap](https://getbootstrap.com) for responsive design and UI components.
 - [Gulp](https://gulpjs.com) for task automation.
 - MongoDB for database functionality.
+- MERN Stack, MongoDB, Express, React, Node.js
+- Pexels API (runs the small videos on the home screen)
+- Stripe API (runs the credit card in checkout)
+- Custom Pexel API (had to make custom API for CORS to connect to backend)
+- Youtube Wireframe API (used to play music when you enter site)
+- Group API (Used for all the items on the website)
+- Bigpoppacode is starter code that has all the dependicies needed for this project. Run this "lets-code" to install it. 
+
 
 ### Contributing
 
@@ -128,3 +146,9 @@ This project is beginner-friendly, and contributions are welcome! If you'd like 
 5. **Open a pull request** detailing your changes.
 
 ### Links
+
+Wireframe - https://files.slack.com/files-pri/T0351JZQ0-F05SPV77REY/image.png
+
+Powerpoint - https://docs.google.com/presentation/d/1w3uQSM_yr4H7RbBALjSeKd4bR-mCx_k8Szef3qlddMM/edit#slide=id.g25f6af9dd6_0_0
+
+Trello Board - https://trello.com/b/FGjsDEj3/ikea-project
